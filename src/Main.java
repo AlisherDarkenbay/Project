@@ -6,5 +6,8 @@ public class Main {
         int i= in.nextInt();
         System.out.println(i*i);
 
+
+
+        
     }
 }
