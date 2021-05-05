@@ -1,11 +1,10 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class Main {
-        public static void main(String[] args) {
-            MainFrame frame = new MainFrame();
-            frame.setVisible(true);
-        }
+public class Main1 {
+    public static void main(String[] args) {
+
+    }
     public static boolean connect() {
         boolean check = false;
         try {
@@ -19,9 +18,4 @@ public class Main {
 
         return check;
     }
-
-    public static void addStudents(Students st) {
-    }
 }
-
-
