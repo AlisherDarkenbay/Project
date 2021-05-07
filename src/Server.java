@@ -23,11 +23,11 @@ public class Server {
             MessageData md = null;
 
 
-            } catch (IOException ioException) {
+        } catch (IOException ioException) {
             ioException.printStackTrace();
         }
 
-        }
+    }
 
 }
 

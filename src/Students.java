@@ -10,7 +10,9 @@ public class Students {
         this.surname = surname;
         this.age = age;
     }
+    public Students(){
 
+    }
     public Long getId() {
         return id;
     }

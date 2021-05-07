@@ -11,6 +11,9 @@ public class PackageData implements Serializable  {
         this.students = students;
         this.student = student;
     }
+    public  PackageData(){
+
+    }
 
     public String getOperationType() {
         return operationType;
